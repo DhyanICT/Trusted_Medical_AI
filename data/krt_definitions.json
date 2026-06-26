@@ -1,0 +1,62 @@
+[
+  {
+    "id": "KRT1",
+    "label": "Diagnosis shock and emotional distress",
+    "category": "emotions",
+    "description": "Posts where people describe being devastated, overwhelmed, crying, scared, or in shock after being diagnosed with type 2 diabetes."
+  },
+  {
+    "id": "KRT2",
+    "label": "Shame, guilt, and stigma about type 2",
+    "category": "emotions",
+    "description": "Posts about feeling ashamed, guilty, blamed, or judged for having type 2 diabetes, including being treated as if it is their fault or a 'lifestyle disease'."
+  },
+  {
+    "id": "KRT3",
+    "label": "Lifestyle change: diet and exercise",
+    "category": "management",
+    "description": "Posts focused on changing diet (low-carb, keto, cutting sugar) and exercise to improve blood sugar or overall health."
+  },
+  {
+    "id": "KRT4",
+    "label": "Weight loss and body changes",
+    "category": "management",
+    "description": "Posts about losing weight, wanting to lose weight, or worrying about weight in relation to diabetes control."
+  },
+  {
+    "id": "KRT5",
+    "label": "Metformin experiences and side effects",
+    "category": "medication",
+    "description": "Posts about starting, stopping, or adjusting metformin, including gastrointestinal side effects or switching to extended-release."
+  },
+  {
+    "id": "KRT6",
+    "label": "Insulin fear and escalation",
+    "category": "medication",
+    "description": "Posts where people are afraid of starting insulin, increasing doses, or see insulin as a sign of failure or severe disease."
+  },
+  {
+    "id": "KRT7",
+    "label": "Remission, reversal, and good control",
+    "category": "outcomes",
+    "description": "Posts about putting type 2 into remission, reversing it, achieving very good A1C, or long-term successful control."
+  },
+  {
+    "id": "KRT8",
+    "label": "Family history and genetic risk",
+    "category": "risk",
+    "description": "Posts about parents or relatives with type 2 diabetes, worries about inheriting it, or asking about genetic vs lifestyle causes."
+  },
+  {
+    "id": "KRT9",
+    "label": "Longevity and life expectancy with type 2",
+    "category": "outcomes",
+    "description": "Posts asking about how long people can live with type 2 diabetes, examples of older relatives with it, or worries about dying early."
+  },
+  {
+    "id": "KRT10",
+    "label": "Relapse, burnout, and mental load",
+    "category": "emotions",
+    "description": "Posts about the mental burden of constant monitoring, relapsing into old habits, diabetes burnout, or struggling to stay on track."
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "KRT1": {
+    "must_contain_any": ["diagnosed", "diagnosis"],
+    "also_contain_any": ["devastated", "devastating", "crying", "cried", "scared", "terrified", "in shock", "overwhelmed", "anxious"]
+  },
+  "KRT2": {
+    "must_contain_any": ["ashamed", "shame", "guilty", "guilt", "regret", "blame", "blamed", "stigma", "stigmatised", "stigmatized"],
+    "also_contain_any": ["type 2", "t2", "diabetes"]
+  },
+  "KRT3": {
+    "must_contain_any": ["diet", "low carb", "low-carb", "keto", "carbs", "carbohydrate"],
+    "also_contain_any": ["exercise", "walking", "workout", "gym", "a1c", "blood sugar", "glucose"]
+  },
+  "KRT4": {
+    "must_contain_any": ["weight", "weigh", "obese", "overweight", "bmi"],
+    "also_contain_any": ["lost", "loss", "gain", "gained", "losing", "gaining"]
+  },
+  "KRT5": {
+    "must_contain_any": ["metformin", "glucophage"],
+    "also_contain_any": ["diarrhea", "diarrhoea", "stomach", "nausea", "gi", "cramps", "upset", "extended release", "er"]
+  },
+  "KRT6": {
+    "must_contain_any": ["insulin"],
+    "also_contain_any": ["scared", "afraid", "fear", "terrified", "shots", "needles", "escalate", "increase dose", "going on insulin"]
+  },
+  "KRT7": {
+    "must_contain_any": ["remission", "reverse", "reversed", "reversal"],
+    "also_contain_any": ["a1c", "off meds", "no meds", "medication free", "diet", "weight"]
+  },
+  "KRT8": {
+    "must_contain_any": ["dad", "mom", "mother", "father", "grandma", "grandpa", "family", "genetic", "hereditary"],
+    "also_contain_any": ["type 2", "t2", "diabetes", "blood sugar"]
+  },
+  "KRT9": {
+    "must_contain_any": ["life expectancy", "live to", "how long", "oldest person", "longevity"],
+    "also_contain_any": ["type 2", "t2", "diabetes"]
+  },
+  "KRT10": {
+    "must_contain_any": ["burnout", "burn out", "tired of", "sick of", "exhausted", "mental load", "overwhelmed"],
+    "also_contain_any": ["checking", "monitoring", "relapse", "relapsed", "slipped", "falling off", "back to old habits"]
+  }
+}

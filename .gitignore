@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+venv/
+venv_old/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+backend.log
+
+# Temporary files
+*.tmp
+deletelater.py
+
+# Test/development files
+code/test_live_reddit.py
+code/inspect_faiss_index.py
+code/live_reddit.py
+
+# Environment variables (keep .env.example, ignore .env)
+.env
+!.env.example

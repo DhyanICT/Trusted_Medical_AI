@@ -1,0 +1,195 @@
+{
+  "version": "1.0",
+  "description": "Ground truth data for evaluation - manually curated test queries with expected relevant chunks",
+  "test_queries": [
+    {
+      "question": "What medications are used for type 2 diabetes?",
+      "expected_disease": "Type 2 diabetes",
+      "expected_kinds": ["disease", "drug", "reddit"],
+      "min_relevant_chunks": 5,
+      "relevant_chunk_identifiers": [
+        {
+          "kind": "disease",
+          "title_contains": "type 2 diabetes",
+          "required": true
+        },
+        {
+          "kind": "drug",
+          "title_contains": "metformin",
+          "required": false
+        },
+        {
+          "kind": "drug",
+          "title_contains": "insulin",
+          "required": false
+        },
+        {
+          "kind": "reddit",
+          "title_contains": "",
+          "required": false
+        }
+      ],
+      "expected_sections": ["trusted_info", "community", "safety", "citations"],
+      "expected_citation_count": {
+        "min_trusted": 2,
+        "min_community": 0,
+        "min_total": 3
+      }
+    },
+    {
+      "question": "What are the symptoms of hypertension?",
+      "expected_disease": "Hypertension",
+      "expected_kinds": ["disease"],
+      "min_relevant_chunks": 3,
+      "relevant_chunk_identifiers": [
+        {
+          "kind": "disease",
+          "title_contains": "hypertension",
+          "required": true
+        }
+      ],
+      "expected_sections": ["trusted_info", "safety", "citations"],
+      "expected_citation_count": {
+        "min_trusted": 1,
+        "min_community": 0,
+        "min_total": 1
+      }
+    },
+    {
+      "question": "How do people manage diabetes with diet?",
+      "expected_disease": "Type 2 diabetes",
+      "expected_kinds": ["disease", "reddit"],
+      "min_relevant_chunks": 4,
+      "relevant_chunk_identifiers": [
+        {
+          "kind": "disease",
+          "title_contains": "diabetes",
+          "required": true
+        },
+        {
+          "kind": "reddit",
+          "title_contains": "",
+          "required": false
+        }
+      ],
+      "expected_sections": ["trusted_info", "community", "safety", "citations"],
+      "expected_citation_count": {
+        "min_trusted": 1,
+        "min_community": 1,
+        "min_total": 2
+      }
+    },
+    {
+      "question": "What are the side effects of metformin?",
+      "expected_disease": "Type 2 diabetes",
+      "expected_kinds": ["drug"],
+      "min_relevant_chunks": 2,
+      "relevant_chunk_identifiers": [
+        {
+          "kind": "drug",
+          "title_contains": "metformin",
+          "required": true
+        }
+      ],
+      "expected_sections": ["trusted_info", "safety", "citations"],
+      "expected_citation_count": {
+        "min_trusted": 1,
+        "min_community": 0,
+        "min_total": 1
+      }
+    },
+    {
+      "question": "Can you tell me about asthma treatments?",
+      "expected_disease": "Asthma",
+      "expected_kinds": ["disease", "drug"],
+      "min_relevant_chunks": 3,
+      "relevant_chunk_identifiers": [
+        {
+          "kind": "disease",
+          "title_contains": "asthma",
+          "required": true
+        },
+        {
+          "kind": "drug",
+          "title_contains": "",
+          "required": false
+        }
+      ],
+      "expected_sections": ["trusted_info", "safety", "citations"],
+      "expected_citation_count": {
+        "min_trusted": 1,
+        "min_community": 0,
+        "min_total": 1
+      }
+    },
+    {
+      "question": "What causes high blood pressure?",
+      "expected_disease": "Hypertension",
+      "expected_kinds": ["disease"],
+      "min_relevant_chunks": 2,
+      "relevant_chunk_identifiers": [
+        {
+          "kind": "disease",
+          "title_contains": "hypertension",
+          "required": true
+        }
+      ],
+      "expected_sections": ["trusted_info", "safety", "citations"],
+      "expected_citation_count": {
+        "min_trusted": 1,
+        "min_community": 0,
+        "min_total": 1
+      }
+    },
+    {
+      "question": "I have been diagnosed with type 2 diabetes, what should I know about medications?",
+      "expected_disease": "Type 2 diabetes",
+      "expected_kinds": ["disease", "drug", "reddit"],
+      "min_relevant_chunks": 5,
+      "relevant_chunk_identifiers": [
+        {
+          "kind": "disease",
+          "title_contains": "type 2 diabetes",
+          "required": true
+        },
+        {
+          "kind": "drug",
+          "title_contains": "",
+          "required": false
+        },
+        {
+          "kind": "reddit",
+          "title_contains": "",
+          "required": false
+        }
+      ],
+      "expected_sections": ["trusted_info", "community", "safety", "citations"],
+      "expected_citation_count": {
+        "min_trusted": 2,
+        "min_community": 0,
+        "min_total": 3
+      }
+    }
+  ],
+  "evaluation_criteria": {
+    "retrieval": {
+      "precision_at_5_threshold": 0.6,
+      "precision_at_10_threshold": 0.7,
+      "precision_at_15_threshold": 0.75,
+      "latency_max_ms": 100
+    },
+    "citations": {
+      "presence_rate_threshold": 0.95,
+      "min_citations_per_query": 2
+    },
+    "performance": {
+      "max_response_time_seconds": 10,
+      "completeness_threshold": 0.75
+    },
+    "trust": {
+      "labeling_accuracy_threshold": 0.95,
+      "min_confidence_score": 0.4
+    }
+  }
+}
+

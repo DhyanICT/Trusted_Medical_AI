@@ -1,0 +1,67 @@
+{
+  "source": "Mayo Clinic",
+  "url": "https://www.mayoclinic.org/diseases-conditions/castleman-disease/symptoms-causes/syc-20543017",
+  "title": "Castleman disease",
+  "overview": "Castleman disease is a group of rare disorders that involves lymph nodes that get bigger, called enlarged lymph nodes, and a wide range of symptoms. The most common form of the disorder involves a single enlarged lymph node. This lymph node is usually in the chest or neck, but it can occur in other areas of the body as well. This form of the disorder is called unicentric Castleman disease (UCD).",
+  "sections": {
+    "Symptoms": [
+      "Many people with unicentric Castleman disease don't notice any signs or symptoms. The enlarged lymph node may be found during a physical exam or an imaging test for a different problem.",
+      "Some people with unicentric Castleman disease might have signs and symptoms that are more often seen in multicentric Castleman disease. These may include:",
+      "Fever.",
+      "Weight loss that happens without trying.",
+      "Fatigue.",
+      "Night sweats.",
+      "Swelling.",
+      "Enlarged liver or spleen.",
+      "Low red blood cell count, also called anemia.",
+      "High or low platelet counts.",
+      "Higher creatinine levels that happen because the kidneys don't work properly.",
+      "Higher levels of antibodies known as immunoglobulins.",
+      "Low levels of a blood protein called albumin.",
+      "Symptoms of the more serious form of idiopathic MCD called iMCD-TAFRO are:",
+      "Low platelet count, also called thrombocytopenia.",
+      "Swelling and fluid in the body, known as anasarca.",
+      "Fever or a higher level of C-reactive protein, a marker of inflammation.",
+      "Reticulin fibrosis, which is checked by taking a sample of bone marrow.",
+      "Organ swelling, also called organomegaly.",
+      "If you notice an enlarged lymph node on the side of your neck or in your underarm, collarbone or groin area, talk with your healthcare professional. Also call your care team if you have a lasting feeling of fullness in your chest or abdomen, fever, fatigue, or weight loss that you can't explain."
+    ],
+    "Causes": [
+      "It's not clear what causes unicentric Castleman disease or idiopathic multicentric Castleman disease (MCD). However, HHV-8-positive MCD is known to occur in people who don't have typical function in their immune systems because of HIV or other causes."
+    ],
+    "Risk Factors": [
+      "Castleman disease can affect people of any age or gender. People usually are diagnosed with Castleman disease during midlife, but it can happen at any age, including during childhood.",
+      "There are no known risk factors for unicentric Castleman disease or idiopathic multicentric Castleman disease. Infection with HIV or having a condition that decreases how well the immune system works raises the risk of having HHV-8-positive multicentric Castleman disease."
+    ],
+    "Complications": [
+      "People with unicentric Castleman disease (UCD) usually do well once the affected lymph node is removed, and life expectancy is usually not changed. But they are at increased risk of developing a rare autoimmune condition called paraneoplastic pemphigus. This condition can be life-threatening. Paraneoplastic pemphigus causes blisters in the mouth and on the skin that are often misdiagnosed. Though the risk of developing paraneoplastic pemphigus is low, being checked for this condition is important if you have UCD.",
+      "Idiopathic multicentric Castleman disease can rapidly get worse to involve life-threatening problems with organ function. This requires critical care with a machine that helps with breathing, called a ventilator, and treatments that help with organs function, such as dialysis and transfusions.",
+      "HHV-8-positive multicentric Castleman disease may involve life-threatening infections and organ failure. People who also have HIV/AIDS generally have worse outcomes."
+    ],
+    "Prevention": [],
+    "Diagnosis": [
+      "After reviewing your medical history and doing a detailed physical exam, your healthcare professional may recommend:",
+      "Blood and urine tests. These help rule out other infections or diseases. These tests also can find anemia and changes in blood proteins that can be typical of Castleman disease.",
+      "Imaging tests. These tests can find enlarged lymph nodes or an enlarged liver or spleen. A CT scan of the neck, chest, abdomen and pelvis may be used. A positron emission tomography scan, also known as a PET scan, may be used to diagnose Castleman disease. PET scans also can show whether a treatment is working.",
+      "Lymph node biopsy. This test is essential to diagnose Castleman disease and rule out related disorders, such as lymphoma. In a biopsy, a tissue sample from an enlarged lymph node is removed and looked at in a laboratory.",
+      "CT scan",
+      "Positron emission tomography scan",
+      "Urinalysis",
+      "X-ray"
+    ],
+    "Treatment": [
+      "Treatment depends on the type of Castleman disease you have.",
+      "Surgery to remove the affected lymph node is the usual treatment for unicentric Castleman disease (UCD). If the lymph node is in the chest or abdomen, major surgery may be needed.",
+      "Surgery to remove the enlarged lymph node usually cures UCD. However, UCD sometimes comes back. If surgery is not possible, you may need medicines typically used for multicentric Castleman disease. If medicines don't work, radiation therapy may be an option.",
+      "More research into the treatment of oligocentric Castleman disease is needed, but treatment is usually similar to that of UCD.",
+      "You'll likely need follow-up exams, including imaging and laboratory tests, to check that the disease hasn't come back.",
+      "Rituximab (Rituxan) is usually the first treatment for HHV-8-positive MCD. Rituximab is highly effective, but sometimes medicines called antivirals and chemotherapies are needed. Antiviral medicines can block the activity of HHV-8 or HIV, and chemotherapies can get rid of extra immune cells.",
+      "Siltuximab (Sylvant) is usually the first treatment for idiopathic MCD. In the U.S., siltuximab is the only medicine approved by the Food and Drug Administration (FDA) for the treatment of idiopathic MCD. People who get better after taking siltuximab tend to have successful long-term treatment. This drug blocks the action of a protein called interleukin-6. The bodies of people who have idiopathic MCD produce too much of this protein.",
+      "People who are critically ill with idiopathic MCD often receive treatment with medicines called corticosteroids. They also may need chemotherapy. Corticosteroids such as prednisone can help control inflammation. Chemotherapy can get rid of immune cells that are causing problems.",
+      "When siltuximab doesn't work, other treatments such as rituximab (Rituxan) and sirolimus (Rapamune) may be used.",
+      "Chemotherapy",
+      "Radiation therapy"
+    ]
+  },
+  "last_accessed": "2025-10-26"
+}
